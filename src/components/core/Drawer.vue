@@ -2,7 +2,6 @@
   <q-drawer
     elevated
     q-drawer
-    show-if-above
     side="right"
     v-model="drawer"
   >

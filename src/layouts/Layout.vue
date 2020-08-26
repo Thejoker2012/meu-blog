@@ -1,24 +1,15 @@
 <template>
-  <q-layout view="hHr Lpr ffr">
+  <q-layout view="hHr Lpr ffr" class="no-scroll no-scrollbar">
 
     <core-app-bar/>
 
     <core-drawer/>
 
-    <q-page-container>
+    <q-page-container >
       <router-view/>
     </q-page-container>
 
-    <q-footer class="bg-grey-8 text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          Footer
-        </q-toolbar-title>
-      </q-toolbar>
-    </q-footer>
+    <core-footer/>
 
   </q-layout>
 </template>
@@ -29,7 +20,8 @@
     name: 'Layout',
     components: {
       CoreAppBar: () => import('src/components/core/AppBar'),
-      CoreDrawer: () => import('src/components/core/Drawer')
+      CoreDrawer: () => import('src/components/core/Drawer'),
+      CoreFooter: () => import('src/components/core/Footer'),
     }
   }
 </script>

@@ -1,3 +1,30 @@
 // app global css in SCSS form
 
 $body-font-family: 'Advent Pro', sans-serif;
+
+.size-header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+}
+
+.size-button{
+  height: 50px;
+  width:128px;
+}
+
+.footer-style{
+  background: #e0e0e0;
+  height: 156px;
+}
+
+.painel-img{
+  height: 100%;
+  max-height: 1000px;
+}
