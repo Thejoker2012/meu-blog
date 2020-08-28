@@ -1,5 +1,5 @@
 <template>
-  <q-footer class="footer-style text-white flex flex-center">
+  <q-footer class="footer-style text-white flex flex-center" elevated>
     <q-toolbar class="container">
       <div class="full-width items-center column">
         <div class="q-my-sm">

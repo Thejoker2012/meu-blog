@@ -1,5 +1,5 @@
 <template>
-  <q-page class="flex justify-center">
+  <q-page class="flex justify-center bg-grey-2">
     <div class="row container no-scroll no-scrollbar" >
       <div class="column col-12 col-md-6 bg-grey-8 items-center">
         <q-img
@@ -9,7 +9,7 @@
           height="100%"
         ></q-img>
       </div>
-      <div class="column col-12 col-md-6 q-pa-md bg-grey-2 justify-center">
+      <div class="column col-12 col-md-6 q-pa-md bg-grey-3 justify-center">
        <div class="q-mx-lg q-my-sm">
          <div class="text-h4 q-mb-lg">
            {{profile.about}}<br>

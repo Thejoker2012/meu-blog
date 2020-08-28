@@ -2,6 +2,7 @@
 
   <q-header
     class="bg-white text-dark size-header justify-center"
+    elevated
   >
     <q-toolbar
       class="container q-pa-md"
@@ -13,15 +14,16 @@
         </div>
       </q-toolbar-title>
 
-      <div
+      <q-list class="mobile-hide">
+        <div class="row">
+          <links
+            :key="index"
+            v-bind="link"
+            v-for="(link,index) in links"
+          />
+        </div>
+      </q-list>
 
-        :key="link.title"
-        v-bind="link"
-        v-for="link in links"
-      >
-        <q-btn stretch size="15px" :label="link.title" :to="link.link" class="mobile-hide size-button" flat></q-btn>
-
-      </div>
       <q-btn @click="drawer" class="mobile-only" dense flat icon="menu" round/>
     </q-toolbar>
   </q-header>
@@ -43,7 +45,7 @@
       }),
     },
     components: {
-      //Links: ()=> import('src/components/shared/Link')
+      Links: () => import('src/components/shared/Link')
     }
   }
 </script>

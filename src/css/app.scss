@@ -3,7 +3,7 @@
 $body-font-family: 'Advent Pro', sans-serif;
 
 .size-header{
-  height: 100px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,9 +22,106 @@ $body-font-family: 'Advent Pro', sans-serif;
 .footer-style{
   background: #e0e0e0;
   height: 156px;
+  z-index: 1;
 }
 
 .painel-img{
   height: 100%;
   max-height: 1000px;
+}
+
+.text-startis-green {
+  color: #6daf63;
+}
+
+.bg-startis-green {
+  background: #6daf63;
+}
+
+.text-startis-bluemarine {
+  color: #41bff3;
+}
+
+.bg-startis-bluemarine {
+  background: #41bff3;
+}
+
+.text-startis-yellow {
+  color: #ffb53a;
+}
+
+.bg-startis-yellow {
+  background: #ffb53a;
+}
+
+.blog-display {
+
+  height: 100%;
+  min-height: 225px;
+  max-height: 400px;
+
+  width: 100%;
+}
+
+.text-display {
+  font-size: 48px;
+}
+
+@media (max-width: $breakpoint-sm-min) {
+  .blog-display {
+    height: 255px;
+  }
+  .text-display {
+    font-size: 40px;
+  }
+
+}
+
+//Social colors
+
+.text-facebook {
+  color: #29478A;
+}
+
+.text-google {
+  color: #C83820;
+}
+
+.text-twitter {
+  color: #219ACD;
+}
+
+.text-pinterest {
+  color: #B71117;
+}
+
+.bg-facebook {
+  background: #29478A;
+}
+
+.bg-google {
+  background: #C83820;
+
+}
+
+.bg-twitter {
+  background: #219ACD;
+
+}
+
+.bg-pinterest {
+  color: #B71117;
+}
+
+.size-btn-social{
+  height: 60px;
+  min-width: 175px;
+}
+
+.tabar-footer-android{
+  z-index: 2;
+}
+
+.q-ma-auto{
+  margin: auto;
 }

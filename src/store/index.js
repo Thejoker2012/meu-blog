@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import pathify from 'vuex-pathify'
+import pathify from 'src/boot/pathify'
 
 import * as modules from './modules'
 
@@ -14,20 +14,20 @@ export default function (/* { ssrContext } */) {
       links: [
         {
           title: 'Home',
-          caption: 'home',
+          color: 'startis-green',
           icon: 'dashboard',
           link: '/'
         },
         {
           title: 'Blog',
-          caption: 'blog',
+          color: 'startis-bluemarine',
           icon: 'book',
           link: '/blog'
         },
         {
           title: 'Contact',
-          caption: 'contact',
-          icon: 'code',
+          color: 'startis-yellow',
+          icon: 'mail',
           link: '/contact'
         }
       ]
