@@ -125,3 +125,8 @@ $body-font-family: 'Advent Pro', sans-serif;
 .q-ma-auto{
   margin: auto;
 }
+
+.bg-radial-startis {
+  background: rgb(55, 175, 86);
+  background: radial-gradient(circle, rgb(69, 175, 141) 0%, rgb(244, 245, 255) 53%, rgb(0, 165, 243) 100%);
+}

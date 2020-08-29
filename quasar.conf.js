@@ -109,7 +109,7 @@ cfg.module.rules.push({
 
     // https://quasar.dev/quasar-cli/developing-ssr/configuring-ssr
     ssr: {
-      pwa: false
+      pwa: true
     },
 
     // https://quasar.dev/quasar-cli/developing-pwa/configuring-pwa
@@ -117,9 +117,9 @@ cfg.module.rules.push({
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Site pessoal`,
-        short_name: `Site pessoal`,
-        description: `Site pessoal`,
+        name: `StarTIS`,
+        short_name: `STIs`,
+        description: `StarTIS - O melhor site para quem procura inovar e aprender novas tecnologias`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -184,7 +184,7 @@ cfg.module.rules.push({
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'meu-blog'
+        appId: 'Startis'
       },
 
       // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration

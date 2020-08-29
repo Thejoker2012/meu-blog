@@ -1,11 +1,12 @@
 <template>
   <q-page class="flex justify-center bg-grey-2">
     <div class="row container no-scroll no-scrollbar" >
-      <div class="column col-12 col-md-6 bg-grey-8 items-center">
+      <div class="column col-12 col-md-6 bg-radial-startis items-center">
         <q-img
           alt="Minha foto de perfil, onde estou ao centro com fones de ouvido."
-          :src="require('src/assets/profile.png')"
-          width="100%"
+          :src="require('src/assets/prof.png')"
+          contain
+          width="90%"
           height="100%"
         ></q-img>
       </div>

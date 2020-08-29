@@ -4,7 +4,7 @@ const socials = [
     text: 'Facebook',
     color: 'facebook',
     action: '',
-    href: 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location)
+    href: 'https://www.facebook.com/sharer/sharer.php?u='
   },
   {
     icon: 'mdi-google-plus',
@@ -32,7 +32,7 @@ const socials = [
     text: 'Whatsapp',
     color: 'green',
     action: 'share/whatsapp/share',
-    href: 'https://wa.me/?text=' + encodeURIComponent(window.location.href),
+    href: 'https://wa.me/?text=',
   },
 ];
 

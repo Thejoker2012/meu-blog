@@ -75,7 +75,7 @@
           </q-tab>
 
           <q-route-tab
-            to="/blog"
+            :to="{name:'blog'}"
           >
             <q-icon name="mdi-view-dashboard" size="40px"/>
           </q-route-tab>
