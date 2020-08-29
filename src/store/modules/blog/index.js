@@ -4,15 +4,15 @@ const posts = [
   {
     id: 1,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Nature',
-    date: 'September 18, 2018',
-    src: 'https://picsum.photos/id/237/400/200',
+    category: 'Vue',
+    date: 'Setembro 18, 2020',
+    src: require('src/assets/thumb/vue.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
         avatar: 'https://randomuser.me/api/portraits/men/51.jpg',
         user: 'John Leonard',
-        date: '20 September, 2018',
+        date: '20 Setembro, 2018',
         text: 'Nullam ac dui et purus malesuada gravida id fermentum orci. In eu ipsum quis urna hendrerit condimentum vitae a mauris. In congue turpis purus, vitae tempus ante id. Donec orci arcu, sagittis ut finibus vitae.',
         replies: [
           {
@@ -54,9 +54,9 @@ const posts = [
   {
     id: 2,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Cities',
-    date: 'September 5, 2018',
-    src: 'https://picsum.photos/id/238/400/200',
+    category: 'Java',
+    date: 'Setembro 5, 2020',
+    src: require('src/assets/thumb/java.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -105,9 +105,9 @@ const posts = [
   {
     id: 3,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Nature',
-    date: 'August 27, 2018',
-    src: 'https://picsum.photos/id/239/400/200',
+    category: 'Kotlin',
+    date: 'Agosto 27, 2020',
+    src: require('src/assets/thumb/kotlin.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -154,9 +154,9 @@ const posts = [
   {
     id: 4,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Design',
-    date: 'August 14, 2018',
-    src: 'https://picsum.photos/id/240/400/200',
+    category: 'Design Patterns',
+    date: 'Agosto 14, 2020',
+    src: require('src/assets/thumb/design-patterns.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -203,9 +203,9 @@ const posts = [
   {
     id: 5,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Design',
-    date: 'August 14, 2018',
-    src: 'https://picsum.photos/id/241/400/200',
+    category: 'Go Lang',
+    date: 'Agosto 14, 2020',
+    src: require('src/assets/thumb/go.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -252,9 +252,9 @@ const posts = [
   {
     id: 6,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Branding',
-    date: 'August 14, 2018',
-    src: 'https://picsum.photos/id/242/400/200',
+    category: 'Prototipagem',
+    date: 'Janeiro 14, 2020',
+    src: require('src/assets/thumb/figma.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -301,9 +301,9 @@ const posts = [
   {
     id: 7,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Branding',
-    date: 'June 26, 2018',
-    src: 'https://picsum.photos/id/243/400/200',
+    category: 'Java',
+    date: 'Junho 26, 2020',
+    src: require('src/assets/thumb/java.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -350,9 +350,9 @@ const posts = [
   {
     id: 8,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Nature',
-    date: 'June 26, 2018',
-    src: 'https://picsum.photos/id/244/400/200',
+    category: 'Vue',
+    date: 'Julho 26, 2020',
+    src: require('src/assets/thumb/vue.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {
@@ -399,9 +399,9 @@ const posts = [
   {
     id: 9,
     blurb: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam earum ipsa quidem, ipsam adipisci, dolorum ducimus repellat vel sed cum maiores voluptatum enim illum saepe dolor fugit amet laboriosam.',
-    category: 'Cities',
-    date: 'June 21, 2018',
-    src: 'https://picsum.photos/id/232/400/200',
+    category: 'React Native',
+    date: 'Julho 21, 2020',
+    src: require('src/assets/thumb/react-native.png'),
     title: 'Lorem ipsum dolor',
     comments: [
       {

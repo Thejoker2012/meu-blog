@@ -1,7 +1,7 @@
 <template>
   <q-item
     clickable
-    :to="link"
+    :to="{name : link}"
     class="text-center"
     style="margin: 0 2px"
     exact

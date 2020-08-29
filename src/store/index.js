@@ -13,23 +13,23 @@ export default function (/* { ssrContext } */) {
       drawer: false,
       links: [
         {
-          title: 'Home',
+          title: 'Página Inicial',
           color: 'startis-green',
           icon: 'dashboard',
-          link: '/'
+          link: 'blog'
         },
         {
-          title: 'Blog',
-          color: 'startis-bluemarine',
-          icon: 'book',
-          link: '/blog'
-        },
-        {
-          title: 'Contact',
+          title: 'Contato',
           color: 'startis-yellow',
           icon: 'mail',
-          link: '/contact'
-        }
+          link: 'contact'
+        },
+        {
+          title: 'Sobre',
+          color: 'startis-bluemarine',
+          icon: 'person',
+          link: 'about'
+        },
       ]
     },
     getters: {

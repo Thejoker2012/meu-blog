@@ -14,26 +14,26 @@
       <div class="row q-ma-none q-px-md">
         <div class="col-sm-12 col-md-6 q-pa-sm">
           <h1 class="text-h4 q-mb-md text-weight-bold">
-            Contact Info:
+            Contato:
           </h1>
           <div class="q-mb-lg">
             Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel,
             conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.
           </div>
           <div class="q-mb-lg">
-            <strong>Address</strong> 8553 N. BEACH ST. STE. 227
+            <strong>Endereço:</strong> Rua das marias 777
           </div>
 
           <div class="q-mb-lg">
-            <strong>Phone</strong> (321) 383-4531
+            <strong>Telefone:</strong> (99) 9999-9999
           </div>
 
           <div class="q-mb-lg">
-            <strong>Email</strong> heather@vuetifyjs.com
+            <strong>E-mail:</strong> teste@teste.com
           </div>
 
           <div class="q-mb-lg">
-            <strong>Fax</strong> (321) 383-4532
+            <strong>Whatsapp:</strong> (99) 99999-9999
           </div>
         </div>
 
@@ -46,7 +46,7 @@
                 <q-input
                   color="grey-10"
                   filled
-                  label="Your name"
+                  label="Nome"
                   square
                   v-model="contact.name"
                 >
@@ -57,7 +57,7 @@
                 <q-input
                   filled
                   color="grey-10"
-                  label="Your email"
+                  label="E-mail"
                   square
                   type="email"
                   v-model="contact.email"
@@ -70,7 +70,7 @@
                 <q-input
                   filled
                   color="grey-10"
-                  label="Your title"
+                  label="Assunto"
                   square
                   v-model="contact.title"
                 >
@@ -82,7 +82,7 @@
                 <q-input
                   filled
                   color="grey-10"
-                  label="Your message"
+                  label="Mensagem"
                   square
                   type="textarea"
                   v-model="contact.message"
@@ -95,7 +95,7 @@
                   class="full-width"
                   color="facebook"
                   stretch
-                  label="Enviar mensagem"
+                  label="Enviar"
                   type="submit"
                 ></q-btn>
               </div>

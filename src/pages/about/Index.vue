@@ -13,7 +13,6 @@
        <div class="q-mx-lg q-my-sm">
          <div class="text-h4 q-mb-lg">
            {{profile.about}}<br>
-           {{profile.role}}
          </div>
          <p class="text-subtitle1">{{profile.apresentation}}</p>
          <p class="text-subtitle1">{{profile.small_motivational_phrase}}</p>
@@ -30,7 +29,7 @@ export default {
     return{
       profile:{
         photo:'',
-        about:'Olá, sou Iago Santos.',
+        about:'Olá, me chamo Iago...',
         role:'Sou Desenvolvedor.',
         apresentation:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur recusandae esse, vel commodi rem similique totam quis, corrupti rerum veritatis numquam ipsa, nam explicabo nulla! Accusamus deserunt repellendus perspiciatis nulla.',
         small_motivational_phrase:'Nulla, porro? Quos architecto vero itaque temporibus in illo nam perferendis ex nemo distinctio?'

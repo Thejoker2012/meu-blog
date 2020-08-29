@@ -1,7 +1,7 @@
 <template>
 
   <q-header
-    class="bg-white text-dark size-header justify-center"
+    class="bg-white text-dark bg-grey-1 size-header justify-center"
     elevated
   >
     <q-toolbar
@@ -10,7 +10,17 @@
 
       <q-toolbar-title>
         <div class="row items-center">
-          <img :src="require('src/assets/logo.png')">
+          <q-img
+            :ratio="1" :src="require('src/assets/logo.png')"
+            alt="Imagem de três triângulos coloridos uma amarelo limão um verde mar e outro roxo"
+            contain
+            height="50px"
+            width="50px"
+          />
+            <div class="q-ml-sm">
+              <div class="text-weight-medium">StarTIS</div>
+              <div class="text-caption" style="margin-top: -8px">Start Technological Innovation</div>
+            </div>
         </div>
       </q-toolbar-title>
 

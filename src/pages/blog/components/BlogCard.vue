@@ -6,13 +6,15 @@
     <q-card
       @click="onClick(post)"
     >
-      <q-img :src="post.src">
+      <q-img
+        :src="post.src"
+        height="186px">
         <div class="absolute-bottom-left text-subtitle2">
           {{post.category}}
         </div>
       </q-img>
 
-      <div class="q-px-sm q-pb-sm">
+      <div class="q-px-sm q-pb-sm bg-grey-1">
         <q-card-section>
           <div class="text-h6">{{post.title}}</div>
           <div class="text-subtitle2 text-caption">{{post.date}}</div>

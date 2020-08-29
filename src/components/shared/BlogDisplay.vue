@@ -1,7 +1,7 @@
 <template>
   <q-img
-    class="blog-display"
     :src="image"
+    class="blog-display"
   >
     <div class="absolute-full flex flex-center text-display text-weight-thin">
       {{title}}
@@ -14,12 +14,12 @@
     name: "BlogDisplay",
     props: {
       title: {
-        default: 'StarTIS - Blog',
+        default: 'Iago Santos - Blog',
         type: String
       },
       image: {
         type: String,
-        default: require('src/assets/painel_principal.jpg')
+        default: "`require('src/assets/painel_principal.jpg')`"
       }
     }
   }

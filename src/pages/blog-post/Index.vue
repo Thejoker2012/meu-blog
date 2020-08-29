@@ -1,13 +1,13 @@
 <template>
   <q-page class="flex justify-center bg-grey-4">
     <div class="container" id="scrollTop">
-      <blog-display/>
+      <blog-display :title="post.category" :image="post.src"/>
       <div class="q-py-sm">
         <div class="row justify-center">
           <div class="col-11 col-md-7">
             <h1 class="text-h3 text-weight-bold">{{post.title}}</h1>
             <div class="text-uppercase text-weight-bold text-body2 q-pb-xl">
-              {{post.date}} / {{post.category}} / {{post.comments.length}} Comments
+              {{post.date}} / {{post.category}}
             </div>
           </div>
           <template
